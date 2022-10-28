@@ -1,4 +1,4 @@
-fetch("https://express-app-coral.vercel.app/jadel")
+fetch("https://express-app-coral.vercel.app/done")
 .then(data => data.json())
 .then(data => {
         console.log(data)
@@ -6,7 +6,7 @@ fetch("https://express-app-coral.vercel.app/jadel")
         const element = document.createElement("div")
 
         console.log("Element: ", element)
-        element.innerHTML = data.jadel
+        element.innerHTML = data.done
         body.appendChild(element)
     }
 )
