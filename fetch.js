@@ -6,7 +6,7 @@ fetch("https://express-app-coral.vercel.app/done")
         const element = document.createElement("div")
 
         console.log("Element: ", element)
-        element.innerHTML = data.Done
+        element.innerHTML = data.done
         body.appendChild(element)
     }
 )
